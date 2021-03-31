@@ -1,0 +1,57 @@
+.Form {
+  margin-bottom: 3rem;
+  padding: 1em;
+}
+
+.Form-fields {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.Form-title {
+  font-weight: 400;
+  text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .Form {
+    padding: 0;
+  }
+
+  .Form-title {
+    text-align: left;
+  }
+}
+
+.Form > div {
+  margin-top: 1rem;
+}
+
+.Btn-add,
+.Btn-reset {
+  width: 100%;
+  color: #444;
+}
+
+.Btn-add {
+  background-color: #61dafb;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .Btn-add,
+  .Btn-reset {
+    display: inline-block;
+    width: auto;
+  }
+
+  .Btn-add {
+    margin-bottom: 0;
+  }
+}
+
+.Form-message {
+  color: #dc3545;
+}

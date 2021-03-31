@@ -1,0 +1,10 @@
+.Btn-edit {
+  margin-right: 0.5rem;
+  background-color: #efad6a;
+  color: #444;
+}
+
+.Btn-remove {
+  background-color: #f43735;
+  color: #eee;
+}

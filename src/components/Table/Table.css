@@ -1,0 +1,36 @@
+.Table-info {
+  padding: 1em;
+}
+
+.Table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 100%;
+  padding: 5em;
+}
+
+.Table-title {
+  font-weight: 400;
+  text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .Table-info {
+    padding: 0;
+  }
+
+  .Table {
+    margin-top: 0;
+  }
+
+  .Table-title {
+    text-align: left;
+  }
+}
+
+.Table th,
+td {
+  text-align: left;
+  padding: 0.5rem;
+  border-bottom: thin solid #dedede;
+}
